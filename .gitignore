@@ -1,0 +1,5 @@
+.localstack
+.idea
+.xdebug/*
+.DS_Store
+.vs
