@@ -2,6 +2,7 @@
 
 ## Problem statements:
 
+
 When working with a monitoring system that uses a pull-based model, it can be challenging to monitor short-lived or batch jobs that only run for a short period of time. In such cases, it becomes necessary to use a push-based model to collect metrics from these jobs and send them to the monitoring system. However, sending metrics directly from each job can be inefficient and can put additional load on the system. The push gateway is a solution to this problem, as it allows jobs to push their metrics to the gateway, which in turn forwards them to the monitoring system
 
 ## What is a push gateway?
